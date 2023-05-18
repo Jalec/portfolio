@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about-me {
+
+
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding-bottom: 150px;
+}
+
+.about-me h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 3.75rem;
+}
+
+.about-me p {
+    color: antiquewhite;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
