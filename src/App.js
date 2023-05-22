@@ -6,6 +6,7 @@ import { Skills } from './pages/Skills.jsx';
 import { Contact } from './pages/ContactMe.jsx';
 import { Footer } from './components/footer';
 
+
 function App() {
   return (
     <div>

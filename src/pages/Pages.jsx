@@ -4,7 +4,7 @@ import { Project } from '../components/project';
 function Pages() {
     return (
         <>
-            <div className='pages'>
+            <div className='pages' id='projects'>
                 <div className='start-pages'>
                     <h1>My projects</h1>
                     <p>Lorem ipsum</p>
