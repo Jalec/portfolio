@@ -36,8 +36,6 @@ function Landing() {
             <img src="/me-modified.png" alt="Myself" />
           </div>
         </div>
-
-
       </div>
 
     </>

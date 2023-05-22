@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pages {
+    max-width: 1060px;
+    min-width: 599px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 20px;
+}
+
+.start-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.start-pages h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 3.75rem;
+}
+
+.start-pages p {
+    color: antiquewhite;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.6rem;
+}
+
+.pages h2 {
+    color: antiquewhite;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 40px;
+}
+
+@media (max-width: 1080px) {
+    .pages {
+        max-width: 800px;
+    }
+
+    .start-pages h1 {
+        font-size: 2.75rem;
+    }
+
+    .start-pages p {
+        font-size: 1.3rem;
+    }
+
+    .pages h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 870px) {
+    .pages {
+        max-width: 600px;
+    }
+
+    .start-pages h1 {
+        font-size: 2.2rem;
+    }
+
+    .start-pages p {
+        font-size: 1.1rem;
+    }
+
+    .pages h2 {
+        font-size: 1.2rem;
+    }
+}
+

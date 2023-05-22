@@ -1,0 +1,65 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.project {
+    display: flex;
+    gap: 100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.project img {
+    width: 455px;
+    height: 255px;
+    border-radius: 0.375rem;
+}
+
+.project img:hover {
+    box-shadow: 5px 5px 20px burlywood;
+    cursor: pointer;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project-info h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.project-info p {
+    color: antiquewhite;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+@media (max-width: 1080px) {
+    .project img {
+        width: 355px;
+        height: 210px;
+        border-radius: 0.375rem;
+    }
+
+    .project-info h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 870px) {
+    .project img {
+        width: 255px;
+        height: 160px;
+        border-radius: 0.375rem;
+    }
+
+    .project-info h1 {
+        font-size: 1.1rem;
+    }
+}

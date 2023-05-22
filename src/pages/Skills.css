@@ -3,59 +3,58 @@
     padding: 0;
 }
 
-.about-me {
+.skills-page {
     max-width: 1060px;
     min-width: 599px;
     margin-left: auto;
     margin-right: auto;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 60px;
     padding-bottom: 200px;
 }
 
-.about-me h1 {
+.skills-page h1 {
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
     font-size: 3.75rem;
+    margin-bottom: 90px;
 }
 
-.about-me p {
-    color: antiquewhite;
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.5rem;
+.skills-grid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
 }
 
 @media (max-width: 1080px) {
-    .about-me {
+    .skills-page {
         max-width: 800px;
     }
 
-    .about-me h1 {
+    .skills-page h1 {
         font-size: 2.75rem;
     }
-
-    .about-me p {
-        font-size: 1.3rem;
+    
+    .skills-grid {
+        grid-template-columns: repeat(4, 120px);
+        gap: 80px;
     }
 }
 
 @media (max-width: 870px) {
-    .about-me {
+    .skills-page {
         max-width: 600px;
         padding-bottom: 100px;
     }
 
-    .about-me h1 {
+    .skills-page h1 {
         font-size: 2.2rem;
     }
 
-    .about-me p {
-        font-size: 1.1rem;
+    .skills-grid {
+        grid-template-columns: repeat(4, 90px);
+        gap: 80px;
     }
 }
 

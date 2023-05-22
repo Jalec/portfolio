@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    max-width: 1060px;
+    min-width: 599px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+
+    padding-bottom: 320px;
+}
+
+.contact h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 3.75rem;
+}
+
+.contact p {
+    color: antiquewhite;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-links a {
+    padding: 6px 16px 6px 12px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+    background-color: #393B4E;
+    color: #B0B0B0;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.301);
+}
+
+
+@media (max-width: 1080px) {
+    .contact {
+        max-width: 800px;
+    }
+
+    .contact h1 {
+        font-size: 2.75rem;
+    }
+
+    .contact p {
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width: 870px) {
+
+    .contact {
+        max-width: 600px;
+    }
+
+    .contact h1 {
+        font-size: 2.2rem;
+    }
+
+    .contact p {
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+    }
+}
+

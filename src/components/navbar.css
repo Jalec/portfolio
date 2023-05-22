@@ -10,14 +10,17 @@
     justify-content: end;
     align-items: center;
     padding: 50px;
+    max-width: 1400px;
 }
 
-.navbar-links {
+.navbar-links ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    margin-right: 170px;
+    gap: 50px;
+}
+
+.navbar-links li {
     list-style: none;
     font-family: 'Hind Madurai', sans-serif;
 }
@@ -25,9 +28,70 @@
 .navbar-links li a {
     text-decoration: none;
     color: white;
+    display: block;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 10px;
 }
 
 .navbar-links li a:hover {
-    text-decoration: underline;
     color: white;
+    background-color: #251818;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 2.15rem;
+    right: 1rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.toggle-btn:hover {
+    background-color: #251818;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    background-color: transparent;
+}
+
+@media (max-width: 870px) {
+    .toggle-btn {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-links.active ul {
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+    }
+
+    .navbar-links.active li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-links.active li a {
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+    }
+
+
 }

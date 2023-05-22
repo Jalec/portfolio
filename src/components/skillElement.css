@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.skill-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-element img {
+    width: 70px;
+}
+
+.skill-element h3 {
+    color: antiquewhite;
+    font-family: 'Hind Madurai', sans-serif;
+}
