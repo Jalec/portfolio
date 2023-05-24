@@ -11,6 +11,7 @@ function Navbar() {
     return (
       <>
         <nav className="navbar">
+            <h1>Jordi.dev</h1>
             <button className='toggle-btn' onClick={toggleNavBar}>
               { isMenuOpen ? 
                 <FaTimes size={40} color='white' className="hamburger-icon"/> 

@@ -17,17 +17,25 @@
     padding-bottom: 200px;
 }
 
+#arcoiris-aboutme {
+    width: 80%;
+    height: 150px;
+    padding-top: 290px;
+    padding-bottom: 70px;
+}
+
 .about-me h1 {
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-size: 3.75rem;
 }
 
 .about-me p {
-    color: antiquewhite;
+    color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.6rem;
     line-height: 2.5rem;
+    font-weight: 600;
 }
 
 @media (max-width: 1080px) {

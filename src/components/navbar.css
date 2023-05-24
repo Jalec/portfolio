@@ -7,17 +7,23 @@
 
 .navbar {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
-    max-width: 1400px;
+    max-width: 1700px;
+}
+
+.navbar h1 {
+    padding-left: 90px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 .navbar-links ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .navbar-links li {
@@ -27,22 +33,22 @@
 
 .navbar-links li a {
     text-decoration: none;
-    color: white;
+    color: black;
     display: block;
-    padding: 1rem;
+    padding: 0.6rem 0.5rem;
     font-size: 1.25rem;
-    border-radius: 10px;
+    font-weight: 600;
 }
 
 .navbar-links li a:hover {
-    color: white;
-    background-color: #251818;
+    color: #23a6d5;
+
 }
 
 .toggle-btn {
     position: absolute;
     top: 2.15rem;
-    right: 1rem;
+    right: 2rem;
     display: none;
     justify-content: center;
     align-items: center;
@@ -64,6 +70,11 @@
 @media (max-width: 870px) {
     .toggle-btn {
         display: flex;
+    }
+
+    .navbar h1 {
+        padding-left: 70px;
+        display: none;
     }
 
     .navbar-links {

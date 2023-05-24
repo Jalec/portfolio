@@ -1,6 +1,10 @@
 * {
     margin: 0; 
-    background-color: #222430;
+    
+}
+body {
+    /* background: linear-gradient(-45deg,#237fd5,rgb(216, 84, 31), white); */
+    background-color: #FFFBF5;
 }
 html {
     scroll-behavior: smooth;
@@ -13,7 +17,7 @@ html {
     display: none;
     width: 50px;
     height: 50px;
-    background-color: transparent;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 24px 24px;
@@ -21,7 +25,7 @@ html {
     opacity: 0.7;
     cursor: pointer;
     z-index: 9999;
-    border: solid white;
+    border: solid black;
 }
 
 .jump-btn:hover {

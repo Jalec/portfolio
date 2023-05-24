@@ -38,24 +38,28 @@
 }
 
 .hello-message h1 {
-    color: white;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 4.4em;
+    
 }
 
 .hello-message p {
-    color: antiquewhite;
+    color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .hello-message span {
-    color: rgb(133, 197, 133);
+    color: #2352d5;
 }
 
 .presentation img {
     width: 400px;
+    border: 3px solid black;
+    border-radius: 50%;
 }
 
 .info-buttons {
@@ -69,12 +73,15 @@
     padding: 6px 16px 6px 12px;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 20px;
-    background-color: #393B4E;
-    color: #B0B0B0;
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.301);
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .info-buttons a:hover {
@@ -82,11 +89,23 @@
     cursor: pointer;
 }
 
-.download-btn {
+.fa-github {
+    font-size: 27px;
+}
+
+.fa-linkedin {
+    font-size: 27px;
+}
+
+.link-resume {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.download-btn {
+    background-color: transparent;
 }
 
 .skill-set ul {

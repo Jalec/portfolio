@@ -10,17 +10,17 @@
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #393B4E;
+    background-color: black;
 }
 
 .footer p {
-    background-color: #393B4E;
+    background-color: black;
     color: white;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.1rem;
 }
 
 .footer span {
-    background-color: #393B4E;
+    background-color: black;
     font-weight: bold;
 }

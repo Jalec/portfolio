@@ -6,15 +6,24 @@
 .skills-page {
     max-width: 1060px;
     min-width: 599px;
+
     margin-left: auto;
     margin-right: auto;
 
     padding-bottom: 200px;
 }
 
+#arcoiris-skills {
+
+    width: 80%;
+    height: 150px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
 .skills-page h1 {
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-size: 3.75rem;
     margin-bottom: 90px;
 }

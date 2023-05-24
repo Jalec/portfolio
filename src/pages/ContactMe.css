@@ -20,15 +20,16 @@
 
 .contact h1 {
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-size: 3.75rem;
 }
 
 .contact p {
-    color: antiquewhite;
+    color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.6rem;
     line-height: 2.5rem;
+    font-weight: 600;
 }
 
 .contact-links {
@@ -50,8 +51,8 @@
     padding: 6px 16px 6px 12px;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 20px;
-    background-color: #393B4E;
-    color: #B0B0B0;
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 10px;
     text-decoration: none;

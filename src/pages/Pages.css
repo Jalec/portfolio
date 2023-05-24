@@ -15,19 +15,22 @@
 .start-pages {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 50px;
+    margin-bottom: 80px;
 }
 
 .start-pages h1 {
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
+    color: black;
     font-size: 3.75rem;
 }
 
 .start-pages p {
-    color: antiquewhite;
+    color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.6rem;
+    padding-top: 0.5rem;
+    font-weight: 600;
 }
 
 .pages h2 {
