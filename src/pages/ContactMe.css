@@ -119,9 +119,11 @@
         max-width: 310px;
         gap: 30px;
         padding-bottom: 70px;
+        align-items: center;
     }
     .contact p {
-        font-size: 1.1rem;
+        display: none;
+        font-size: 1.3rem;
         line-height: 1.5rem;
     }
 }

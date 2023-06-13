@@ -122,6 +122,12 @@
     .skills-page h1 {
         padding-top: 130px;
         margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .skills-page p {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
     }
 
     .skills-grid {

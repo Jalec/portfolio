@@ -13,8 +13,7 @@ function Aboutme() {
             <p>
             Welcome to my portfolio! I'm Jordi Alejandre, a passionate and dedicated web developer with a primary focus on FrontEnd development and solid fundamentals in BackEnd. <br />
             With a degree in Computer Science specializing in Information Technologies, I have acquired a strong foundation in coding languages, frameworks, and industry best practices. <br /> <br />
-            During my time at SIGMA, a software company specializing in solutions for universities, I have been working as a SQL developer. I gained invaluable experience in the database field, strengthening my expertise in backend development. <br /> <br />
-            What sets me apart as a web developer is my seamless blend of creativity and functionality. My meticulous attention to detail and constant desire to deliver captivating user interfaces define me as a developer. <br />
+            During my time at SIGMA, a software company specializing in solutions for universities, I have been working as a SQL developer. I gained invaluable experience in the database field, strengthening my expertise in backend development. <br />
             In addition to my professional experience, I have undertaken independent projects, below, you can explore two of my most relevant ones. 
             </p>
         </div>

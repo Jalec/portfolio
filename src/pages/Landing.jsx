@@ -1,4 +1,3 @@
-//import './App.css';
 import './Landing.css';
 import { Navbar } from "../components/navbar";
 import { FiDownload } from 'react-icons/fi';
