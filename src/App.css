@@ -3,8 +3,8 @@
     
 }
 body {
-    /* background: linear-gradient(-45deg,#237fd5,rgb(216, 84, 31), white); */
-    background-color: #FFFBF5;
+    /* background-color: #FFFBF5; */
+    background-color: white;
 }
 html {
     scroll-behavior: smooth;
@@ -26,6 +26,8 @@ html {
     cursor: pointer;
     z-index: 9999;
     border: solid black;
+
+    transition: all 0.2s;
 }
 
 .jump-btn:hover {
@@ -38,4 +40,10 @@ html {
 
 .arrow-icon {
     background-color: transparent;
+}
+
+@media (max-width: 425px) {
+    .jump-btn.active {
+        display: none;
+    }
 }

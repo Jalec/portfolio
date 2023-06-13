@@ -38,38 +38,79 @@
     padding: 0.6rem 0.5rem;
     font-size: 1.25rem;
     font-weight: 600;
+    transform: translateY(0px);
+
+    transition: all 0.3s;
 }
 
 .navbar-links li a:hover {
-    color: #23a6d5;
-
+    color: #2352d5;
+    transform: translateY(3px);
 }
 
-.toggle-btn {
+
+/* ------ burger menu ------- */
+#checkbox {
+    display: none;
+}
+  
+.toggle {
     position: absolute;
     top: 2.15rem;
     right: 2rem;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-}
-
-.toggle-btn:hover {
-    background-color: #251818;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .3s;
 }
+  
+.bars {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+  
+#checkbox:checked + .toggle .bars {
+    margin-left: 13px;
+}
+  
+#checkbox:checked + .toggle #bar2 {
+    transform: rotate(135deg);
+    margin-left: 0;
+    transform-origin: center;
+    transition-duration: .3s;
+}
+  
+#checkbox:checked + .toggle #bar1 {
+    transform: rotate(45deg);
+    transition-duration: .3s;
+    transform-origin: left center;
+}
+  
+  #checkbox:checked + .toggle #bar3 {
+    transform: rotate(-45deg);
+    transition-duration: .3s;
+    transform-origin: left center;
+}
+  
 
-.hamburger-icon {
-    background-color: transparent;
-}
 
 @media (max-width: 870px) {
     .toggle-btn {
         display: flex;
+    }
+
+    .toggle {
+        display: flex;
+        top: 2.15rem;
+        right: 2rem;
     }
 
     .navbar h1 {
@@ -80,6 +121,7 @@
     .navbar-links {
         display: none;
         width: 100%;
+        
     }
 
     .navbar-links.active {
@@ -92,17 +134,17 @@
         flex-direction: column;
         gap: 20px;
         width: 80%;
+
     }
 
     .navbar-links.active li {
         text-align: center;
         width: 100%;
+
     }
 
     .navbar-links.active li a {
         padding: .5rem 1rem;
         font-size: 1.25rem;
     }
-
-
 }

@@ -69,24 +69,45 @@
     gap: 20px;
 }
 
-.info-buttons a {
-    padding: 6px 16px 6px 12px;
+.link-resume {
+    color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 10px;
+    background: whitesmoke;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
     text-decoration: none;
-    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    transition: all 0.05s;
+}
+  
+.link-resume:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+  
+.link-resume:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
 }
 
-.info-buttons a:hover {
-    background-color: #5e6072;
-    cursor: pointer;
+.relevant-links {
+    display: flex;
+    gap: 20px;
+}
+
+.relevant-links a i{
+    color: black;
+    font-size: 40px;
+
+    transition: all 0.3s;
+}
+
+.relevant-links a i:hover{
+    opacity: 0.7;
 }
 
 .fa-github {
@@ -122,7 +143,7 @@
     padding: 10px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1130px) {
     .container-landing {
         max-width: 800px;
         margin-left: auto;
@@ -152,7 +173,61 @@
     }
 
     .hello-message p {  
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 
+@media (max-width: 650px) {
+    .landing {
+        margin-top: 0px;
+    }
+
+    .presentation {
+        gap: 40px;
+    }
+
+    .container-landing {
+        min-width: 300px;
+        max-width: 420px;
+    }
+
+    .hello-message {
+        gap: 40px;
+    }
+
+    .hello-message h1 {
+        font-size: 3.2em;
+    }
+
+    .hello-message p {  
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .landing {
+        margin-top: 0px;
+    }
+
+    .presentation img {
+        width: 200px;
+    }
+
+    .container-landing {
+        min-width: 120px;
+        max-width: 300px;
+    }
+
+    .hello-message {
+        gap: 30px;
+    }
+
+    .hello-message h1 {
+        font-size: 2.2em;
+    }
+
+    .hello-message p {  
+        font-size: 1.1rem;
+    }
+}

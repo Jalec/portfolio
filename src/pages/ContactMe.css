@@ -15,21 +15,22 @@
     align-items: flex-start;
     gap: 40px;
 
-    padding-bottom: 320px;
+    padding-bottom: 200px;
 }
 
 .contact h1 {
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #187498;
     font-size: 3.75rem;
 }
 
 .contact p {
     color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     line-height: 2.5rem;
     font-weight: 600;
+    width: 85%;
 }
 
 .contact-links {
@@ -48,19 +49,32 @@
 }
 
 .contact-links a {
-    padding: 6px 16px 6px 12px;
+    color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 10px;
+    background: whitesmoke;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
     text-decoration: none;
-    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.301);
+
+    transition: all 0.05s;
+}
+
+.contact-links a:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+  
+.contact-links a:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
 }
 
 
-@media (max-width: 1080px) {
+@media (max-width: 1130px) {
     .contact {
         max-width: 800px;
     }
@@ -79,6 +93,7 @@
 
     .contact {
         max-width: 600px;
+        padding-bottom: 90px;
     }
 
     .contact h1 {
@@ -87,7 +102,26 @@
 
     .contact p {
         font-size: 1.1rem;
-        line-height: 2.5rem;
+        line-height: 1.8rem;
     }
 }
 
+@media (max-width: 650px) {
+    .contact {
+        min-width: 300px;
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact {
+        min-width: 120px;
+        max-width: 310px;
+        gap: 30px;
+        padding-bottom: 70px;
+    }
+    .contact p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+}

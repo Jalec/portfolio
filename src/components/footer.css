@@ -20,7 +20,14 @@
     font-size: 1.1rem;
 }
 
-.footer span {
+.footer span a{
     background-color: black;
+    color: white;
     font-weight: bold;
+    text-decoration: none;
 }
+
+.footer span a:hover {
+    opacity: 0.5;
+}
+

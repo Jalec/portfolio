@@ -19,3 +19,13 @@
     color: black;
     font-family: 'Hind Madurai', sans-serif;
 }
+
+@media (max-width: 870px) {
+    .skill-element img {
+        width: 50px;
+    }
+
+    .skill-element h3 {
+        font-size: 16px;
+    }
+}

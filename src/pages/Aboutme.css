@@ -3,7 +3,20 @@
     padding: 0;
 }
 
+
+.about-me-container {
+    position: relative;
+    margin-top: 100px;
+}
+
+.about-me-container svg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
 .about-me {
+    z-index: 2;
     max-width: 1060px;
     min-width: 599px;
     margin-left: auto;
@@ -17,28 +30,24 @@
     padding-bottom: 200px;
 }
 
-#arcoiris-aboutme {
-    width: 80%;
-    height: 150px;
-    padding-top: 290px;
-    padding-bottom: 70px;
-}
-
 .about-me h1 {
+    margin-top: 310px;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    /* color: black; */
+    color: #EB5353;
     font-size: 3.75rem;
 }
 
 .about-me p {
     color: #3a3030;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     line-height: 2.5rem;
     font-weight: 600;
+    width: 85%;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1130px) {
     .about-me {
         max-width: 800px;
     }
@@ -55,15 +64,49 @@
 @media (max-width: 870px) {
     .about-me {
         max-width: 600px;
-        padding-bottom: 100px;
+        padding-bottom: 70px;
     }
 
     .about-me h1 {
+        margin-top: 160px; 
         font-size: 2.2rem;
     }
 
     .about-me p {
         font-size: 1.1rem;
+        line-height: 1.9rem;
     }
 }
 
+@media (max-width: 650px) {
+    .about-me {
+        min-width: 300px;
+        max-width: 420px;
+
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .about-me h1 {
+        margin-top: 110px; 
+    }
+
+}
+
+@media (max-width: 450px) {
+    .about-me {
+        min-width: 120px;
+        max-width: 310px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .about-me h1 {
+        margin-top: 110px; 
+    }
+
+    .about-me p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+}

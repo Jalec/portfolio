@@ -1,5 +1,4 @@
 import './navbar.css';
-import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 
 function Navbar() {
@@ -8,17 +7,17 @@ function Navbar() {
     const toggleNavBar = () => {
       setIsMenuOpen(!isMenuOpen);
     }
+
     return (
       <>
         <nav className="navbar">
             <h1>Jordi.dev</h1>
-            <button className='toggle-btn' onClick={toggleNavBar}>
-              { isMenuOpen ? 
-                <FaTimes size={40} color='white' className="hamburger-icon"/> 
-                :
-                <FaBars size={40} color='white' className="hamburger-icon"/> 
-              }
-            </button>
+            <input type="checkbox" id="checkbox" onClick={toggleNavBar}></input>
+              <label for="checkbox" class="toggle">
+                <div class="bars" id="bar1"></div>
+                <div class="bars" id="bar2"></div>
+                <div class="bars" id="bar3"></div>
+              </label>
             <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
               <ul>
                   <li><a href="#aboutme">About Me</a></li>
