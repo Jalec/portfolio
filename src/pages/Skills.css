@@ -107,6 +107,14 @@
 
     .skills-page h1 {
         padding-top: 130px;
+        text-align: center;
+    }
+
+    .skills-page p {
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+        text-align: center;
+        width: 100%;
     }
 }
 
@@ -126,7 +134,7 @@
     }
 
     .skills-page p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 1.5rem;
     }
 

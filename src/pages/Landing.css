@@ -29,7 +29,7 @@
 }
 
 .hello-message {
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;

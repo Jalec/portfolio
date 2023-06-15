@@ -11,9 +11,9 @@ function Aboutme() {
         <div className='about-me' id='aboutme'>
             <h1>About Me</h1>
             <p>
-            Welcome to my portfolio! I'm Jordi Alejandre, a passionate and dedicated web developer with a primary focus on FrontEnd development and solid fundamentals in BackEnd. <br />
+            Welcome to my portfolio! I'm Jordi Alejandre, a passionate and dedicated web developer with a primary focus on FrontEnd development and solid fundamentals in BackEnd.
             With a degree in Computer Science specializing in Information Technologies, I have acquired a strong foundation in coding languages, frameworks, and industry best practices. <br /> <br />
-            During my time at SIGMA, a software company specializing in solutions for universities, I have been working as a SQL developer. I gained invaluable experience in the database field, strengthening my expertise in backend development. <br />
+            During my time at SIGMA, a software company specializing in solutions for universities, I have been working as a SQL developer. I gained invaluable experience in the database field, strengthening my expertise in backend development.
             In addition to my professional experience, I have undertaken independent projects, below, you can explore two of my most relevant ones. 
             </p>
         </div>

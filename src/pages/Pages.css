@@ -84,6 +84,15 @@
         max-width: 420px;
         margin-top: 70px;
     }
+
+    .start-pages h1 {
+        text-align: center;
+    }
+
+    .start-pages p {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 @media (max-width: 450px) {
@@ -98,7 +107,7 @@
     }
 
     .start-pages p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         line-height: 1.5rem;
     }
 }

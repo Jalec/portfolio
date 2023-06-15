@@ -110,6 +110,16 @@
     .contact {
         min-width: 300px;
         max-width: 420px;
+        align-items: center;
+    }
+    .contact h1 {
+        text-align: center;
+    }
+    .contact p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
     }
 }
 
@@ -121,9 +131,8 @@
         padding-bottom: 70px;
         align-items: center;
     }
+
     .contact p {
         display: none;
-        font-size: 1.3rem;
-        line-height: 1.5rem;
     }
 }
