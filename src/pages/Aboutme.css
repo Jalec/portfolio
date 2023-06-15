@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 60px;
+    gap: 40px;
     padding-bottom: 200px;
 }
 
@@ -66,6 +66,7 @@
     .about-me {
         max-width: 600px;
         padding-bottom: 70px;
+        gap: 20px;
     }
 
     .about-me h1 {
@@ -81,6 +82,7 @@
 
 @media (max-width: 650px) {
     .about-me {
+        
         min-width: 300px;
         max-width: 420px;
         align-items: center;
@@ -103,6 +105,7 @@
 
 @media (max-width: 450px) {
     .about-me {
+        
         min-width: 120px;
         max-width: 310px;
         padding-bottom: 70px;

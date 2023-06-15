@@ -16,6 +16,7 @@
 .skills-page {
     display: flex;
     flex-direction: column;
+    gap: 40px;
     z-index: 2;
     max-width: 1060px;
     min-width: 599px;
@@ -32,7 +33,6 @@
     /* color: black; */
     color: #36AE7C;
     font-size: 3.75rem;
-    margin-bottom: 60px;
 }
 
 .skills-page p {
@@ -41,7 +41,6 @@
     font-size: 1.3rem;
     line-height: 2.5rem;
     font-weight: 600;
-    margin-bottom: 50px;
     width: 85%;
 }
 
@@ -82,6 +81,7 @@
     .skills-page {
         max-width: 600px;
         padding-bottom: 100px;
+        gap: 20px;
     }
 
     .skills-page h1 {
@@ -136,6 +136,7 @@
     .skills-page p {
         font-size: 1.1rem;
         line-height: 1.5rem;
+        margin-bottom: 25px;
     }
 
     .skills-grid {
