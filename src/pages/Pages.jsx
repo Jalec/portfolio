@@ -19,7 +19,7 @@ function Pages() {
                 </div>
                 <div className='projects'>
                     <Project projectURL="https://cosmere-shop.vercel.app/" repo="https://github.com/Jalec/cosmere-shop" imgURL="/cosmere-shop-project.png" tools={cosmereTools} title="E-commerce Web App" desc="This project demonstrates my abilities in utilizing modern tools such as React and Tailwind CSS. It showcases my eagerness to learn and adopt cutting-edge technologies."/>
-                    <Project projectURL="https://discord-clone-website-kg3d538r7-jalec.vercel.app/" repo="https://github.com/Jalec/discord-clone-website" imgURL="/discord-project.png" tools={discordTools} title="Discord clone" desc="The second project, a Discord clone, is built using HTML, CSS, and JavaScript, highlighting my strong foundation in web development fundamentals and the ability to create modern websites."/>
+                    <Project projectURL="https://github.com/Jalec/discord-clone-website" repo="https://github.com/Jalec/discord-clone-website" imgURL="/discord-project.png" tools={discordTools} title="Discord clone" desc="The second project, a Discord clone, is built using HTML, CSS, and JavaScript, highlighting my strong foundation in web development fundamentals and the ability to create modern websites."/>
                 </div>
             </div>
         </>
